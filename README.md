@@ -512,3 +512,132 @@ source myenv/bin/activate
 ```
 
 Once activated, you work in an isolated workspace with its Python interpreter and library dependencies.
+
+
+
+```text
+# -----------------------------------
+# |        CHAPTER - 1              |
+# -----------------------------------
+
+
+
+# # 1. print () function: use to print anything on the screen
+# print('hello world') or print("hello world")
+
+
+
+# # 2. Escape sequences: use to escape characters
+# print("*******************************BLOCK STARTED**********************************")
+# print("hello's world")
+# print("Hi Sunil, \"you\" are rocking")
+# print('I\'m Sunil')
+# print('first line \nsecond line') # \n print to next line
+# print('first word \tsecond word') # \t gives tab space between sentence
+# print('this is  single backslash \\')
+# print('this is double backslash \\\\')
+# # Escape Sequences    Meaning
+# # ----------------    -------
+# # \'                  single quote
+# # \"                  double quote
+# # \\                  single backslash
+# # \\\\                double backslash
+# # \n                  new line
+# # \t                  tab space
+# # \b                  back space
+# print("*******************************BLOCK ENDED************************************")
+
+
+
+# # 3. Escape sequence as normal text: how to use escape sequences in normal sentences
+# print("*******************************BLOCK STARTED************************************")
+# print("line A \\n line B") #--> print line A \n line B
+# print("line A \\t line B") #--> print line A \t line B
+# print(" \\\" \\\' ")       #--> print \" \'
+# print("*******************************BLOCK ENDED**************************************")
+
+
+
+# # 4. Exercise: print below lines as it is
+# # this is \\ double blackslash
+# # this is /\/\/\/\ mountain
+# # he is    awesome
+# # \" \n \t 
+# # Solution:
+# print("*******************************BLOCK STARTED************************************")
+# print("this is \\\\ double blaskslash")
+# print("this is /\\/\\/\\/\\ mountain")
+# print("he is \t awesome")
+# print(" \\\" \\n \\t ")
+# print("*******************************BLOCK ENDED**************************************")
+
+
+
+# # 5. Raw string: it is used to print sentence as it, it is similar to escape sequences
+# print("*******************************BLOCK STARTED************************************")
+# print(r"this is \\ double blackslash")
+# print(r"this is /\/\/\/\ mountain")
+# print(r"he is    awesome")
+# print(r"\" \n \t")
+# print("*******************************BLOCK ENDED**************************************")
+
+
+
+# # 6.emoji: to print emoji's on the screen using unicode, link: https://home.unicode.org/
+# print("*******************************BLOCK STARTED************************************")
+# print("\U0001F602") # U+1F602, replace + with 3 zero's and give \ at the beginning
+# print("\U0001F604") # U+1F604, replace + with 3 zero's and give \ at the beginning
+# print("\U0001F618") # U+1F618, replace + with 3 zero's and give \ at the beginning
+# print("*******************************BLOCK ENDED**************************************")
+
+
+
+# # 7. Python as calculator: explain about how we can make use of python for math calculations.
+# # operator like +, -, *, /(float division, means it gives output in pointwise like 2.0,2.5)
+# # //(integer division, no point), %(modulo, it gives reminder), **(exponent)
+# # =============================================
+# # OPERATORS   PRECEDENCE AND ASSOCIATIVITY RULE
+# # PARENTHESIS HIGHEST
+# # EXPONENT    RIGHT TO LEFT
+# # *,/,//,%    LEFT TO RIGHT
+# # +,-         LEFT TO RIGHT
+# # ==============================================
+# print("*******************************BLOCK STARTED************************************")
+# print(2+3)
+# print(2-3)
+# print(2/3)
+# print(2//3)
+# print(2%3)
+# print(2**3)
+# print(round(2**0.5,2))
+# print((2+3)*2)
+# print((2+3)*5/2%6)   # 25 / 2 % 6
+# print(2**3**2) #exponent
+# print("*******************************BLOCK ENDED**************************************")
+
+
+
+# # 8. Variables in python: You can store anything to a variable like string, number,integer
+# # Rules of variable:
+# # You cannot start variable with number like 1num, 2name etc
+# # You cannot use variable with special chars like $,% like n@me, @ge, Sun%l
+# # You can start variable with '_' (underscore) like _name, _age
+# # You can use number in middle of variable name but not starting.
+# # You can use convention in variables if it has more than one word like one_two_three(snake case writing), OneTwoThree(camel case writing)
+# print("*******************************BLOCK STARTED************************************")
+# number1=2
+# number1=4 # it is overwriting number1 of first variable
+# print(number1)
+
+# name='sunil'
+# print(name)   # it is dynamic programming language because it can change variable value.   
+# name=123 
+# print(name)
+
+# one_two_three = "sunil"
+# print(one_two_three)
+
+# OneTwoThree = "prashant"
+# print(OneTwoThree)
+# print("*******************************BLOCK ENDED**************************************")
+```
