@@ -82,7 +82,12 @@ In programming, a data type is a classification or categorization that specifies
 # EXAMPLES
 
 **01-string-concat.py**
+
 str1 = "Hello"
 str2 = "World"
 result = str1 + " " + str2
 print(result)
+
+text = "Python is awesome"
+length = len(text)
+print("Length of the string:", length)
