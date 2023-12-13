@@ -129,6 +129,8 @@ if substring in text:
     print(substring, "found in the text")
 ```
 
+
+
 **02-float.py**
 ```py
 # Float variables
@@ -171,3 +173,66 @@ result3 = abs(-7)
 print("Absolute Value:", result3)
 ```
 
+
+
+**03-regex-findall**
+```py
+import re
+
+text = "The quick brown fox"
+pattern = r"brown"
+
+search = re.search(pattern, text)
+if search:
+    print("Pattern found:", search.group())
+else:
+    print("Pattern not found")
+```
+**03-regex-match**
+```py
+import re
+
+text = "The quick brown fox"
+pattern = r"quick"
+
+match = re.match(pattern, text)
+if match:
+    print("Match found:", match.group())
+else:
+    print("No match")
+```
+**03-regex-replace**
+```py
+import re
+
+text = "The quick brown fox jumps over the lazy brown dog"
+pattern = r"brown"
+
+replacement = "red"
+
+new_text = re.sub(pattern, replacement, text)
+print("Modified text:", new_text)
+```
+**03-regex-search**
+```py
+import re
+
+text = "The quick brown fox"
+pattern = r"brown"
+
+search = re.search(pattern, text)
+if search:
+    print("Pattern found:", search.group())
+else:
+    print("Pattern not found")
+```
+**03-regex-split**
+```py
+import re
+
+text = "apple,banana,orange,grape"
+pattern = r","
+
+split_result = re.split(pattern, text)
+print("Split result:", split_result)
+```
