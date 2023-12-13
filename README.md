@@ -82,9 +82,6 @@ In programming, a data type is a classification or categorization that specifies
 # EXAMPLES
 
 **01-string-concat.py**
-# Regex
-
-**1. Regular Expressions for Text Processing:**
 str1 = "Hello"
 str2 = "World"
 result = str1 + " " + str2
